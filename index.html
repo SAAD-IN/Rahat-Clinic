@@ -3,112 +3,177 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Rahat Clinic</title>
 
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
 body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#f7fbff;
-    color:#333;
+background:#eef6ff;
+padding:20px;
+color:#333;
 }
 
 .container{
-    max-width:500px;
-    margin:40px auto;
-    background:white;
-    border-radius:15px;
-    padding:30px;
-    text-align:center;
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
+max-width:520px;
+margin:auto;
+background:#fff;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
 }
 
-h1{
-    color:#0b5fa5;
-    margin-bottom:5px;
+.header{
+background:#0b5fa5;
+color:white;
+padding:28px 20px;
+text-align:center;
 }
 
-h2{
-    color:#666;
-    font-size:18px;
-    margin-top:0;
-    font-weight:normal;
+.header h1{
+font-size:32px;
+margin-bottom:8px;
 }
 
-.line{
-    width:70px;
-    height:3px;
-    background:#0b5fa5;
-    margin:20px auto;
+.header h2{
+font-size:22px;
+font-weight:normal;
 }
 
-.info{
-    text-align:left;
-    line-height:1.7;
-    margin-top:20px;
+.header p{
+margin-top:6px;
+font-size:17px;
+opacity:.95;
+}
+
+.section{
+padding:25px;
+}
+
+.card{
+background:#f4f9ff;
+border-left:5px solid #0b5fa5;
+padding:18px;
+border-radius:10px;
+line-height:1.8;
+margin-bottom:20px;
+}
+
+.card strong{
+color:#0b5fa5;
 }
 
 .button{
-    display:block;
-    margin:12px auto;
-    padding:12px;
-    width:220px;
-    text-decoration:none;
-    background:#0b5fa5;
-    color:white;
-    border-radius:8px;
-    font-weight:bold;
+display:block;
+text-align:center;
+text-decoration:none;
+background:#0b5fa5;
+color:white;
+padding:14px;
+margin:12px 0;
+border-radius:10px;
+font-size:17px;
+font-weight:bold;
+transition:.2s;
+}
+
+.button:hover{
+transform:scale(1.02);
+background:#084b83;
+}
+
+.phone{
+text-decoration:none;
+color:#333;
 }
 
 .footer{
-    margin-top:25px;
-    color:#777;
-    font-size:14px;
+padding:20px;
+text-align:center;
+font-size:14px;
+color:#666;
+border-top:1px solid #eee;
 }
-</style>
 
+</style>
 </head>
 
 <body>
 
 <div class="container">
 
+<div class="header">
+
 <h1>Rahat Clinic</h1>
+
 <h2>Dr. Sami M. Jamadar</h2>
-<p><strong>BAMS (A.M.)</strong></p>
 
-<div class="line"></div>
-
-<div class="info">
-
-📍 <strong>Address</strong><br>
-3398/1537/C, Ground Floor<br>
-Rahat Medical & General Store<br>
-Jamiya Masjid Road,<br>
-Jamadar Galli,<br>
-Chikodi – 591201
-
-<br><br>
-
-☎ <strong>08338 356893</strong><br>
-📱 <strong>8660317279</strong>
+<p>BAMS (A.M.)</p>
 
 </div>
 
-<a class="button" href="tel:08338356893">
+<div class="section">
+
+<div class="card">
+
+<strong>📍 Clinic Address</strong><br><br>
+
+Rahat Medical & General Store<br>
+
+3398/1537/C, Ground Floor<br>
+
+Jamiya Masjid Road,<br>
+
+Jamadar Galli,<br>
+
+Chikodi – 591201
+
+</div>
+
+<div class="card">
+
+<strong>☎ Contact</strong><br><br>
+
+<a class="phone" href="tel:08338356893">
+08338 356893
+</a>
+
+<br><br>
+
+<a class="phone" href="tel:8660317279">
+8660317279
+</a>
+
+</div>
+
+<a class="button"
+href="tel:08338356893">
 📞 Call Clinic
 </a>
 
-<a class="button" href="https://wa.me/918660317279">
+<a class="button"
+href="https://wa.me/918660317279">
 💬 WhatsApp
 </a>
 
-<a class="button" href="https://maps.app.goo.gl/YV2wbCfKNBJhikB88?g_st=ac">
-📍 Open in Google Maps
+<a class="button"
+href="https://maps.app.goo.gl/YV2wbCfKNBJhikB88?g_st=ac">
+📍 Get Directions
 </a>
 
+</div>
+
 <div class="footer">
+
 Caring for your health with compassion and trust.
+
 </div>
 
 </div>
